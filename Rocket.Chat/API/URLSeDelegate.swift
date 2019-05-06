@@ -48,16 +48,16 @@ class URLSeDelegate: NSObject, URLSessionDelegate {
         var identityAndTrust: IdentityAndTrust!
         var securityError: OSStatus = errSecSuccess
 
-        let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.collectivetheory.io")
+        let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.blockstream.com")
         let PKCS12Data = sharedDefaults?.value(forKey: "clientCertificate")
 
         if(PKCS12Data != nil)
         {
             let key : NSString = kSecImportExportPassphrase as NSString
-            let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.collectivetheory.io")
+            let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.blockstream.com")
             let password = sharedDefaults?.value(forKey: "certificatePassword")
 
-            let options : NSDictionary = [key: password]
+            let options : NSDictionary = [key: password!]
 
             var items: CFArray?
 
@@ -83,7 +83,7 @@ class URLSeDelegate: NSObject, URLSessionDelegate {
             else
             {
                 let key : NSString = kSecImportExportPassphrase as NSString
-                let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.collectivetheory.io")
+                let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.blockstream.com")
                 sharedDefaults?.removeObject(forKey: "certificatePassword")
                 sharedDefaults?.synchronize()
 

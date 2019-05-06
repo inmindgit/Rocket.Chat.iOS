@@ -38,9 +38,16 @@ class InfoRequestHandler: NSObject {
         ).present()
     }
 
+    func alertCertificateSSLExpiredURL() {
+        Alert(
+            key: "alert.connection.invalid_certificate"
+            ).present()
+    }
+
     internal func validateServerResponse(result: InfoResult?) {
         guard let version = result?.version else {
             delegate?.urlNotValid()
+            self.alertCertificateSSLExpiredURL()
             return
         }
 

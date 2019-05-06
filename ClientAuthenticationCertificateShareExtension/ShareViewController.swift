@@ -14,7 +14,7 @@ class ShareViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.collectivetheory.io")
+        let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.blockstream.com")
         var isServerCertificateLoaded = sharedDefaults?.value(forKey: "isServerCertificateLoaded")
 
         if(isServerCertificateLoaded == nil)
@@ -46,7 +46,7 @@ class ShareViewController: UIViewController {
                                 let codObj = coding as! NSURL // swiftlint:disable:this force_cast
                                 let PKCS12Data: NSData = NSData(contentsOfFile: codObj.path!)!
 
-                                let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.collectivetheory.io")
+                                let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.blockstream.com")
                                 sharedDefaults?.set(PKCS12Data, forKey: "clientCertificate")
                                 sharedDefaults?.set(nil, forKey: "certificatePassword")
                                 sharedDefaults?.synchronize()

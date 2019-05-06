@@ -185,7 +185,7 @@ open class FoundationStream : NSObject, WSStream, StreamDelegate  {
             #endif
 
             let key : NSString = kSecImportExportPassphrase as NSString
-            let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.collectivetheory.io")
+            let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.blockstream.com")
             let password = sharedDefaults?.value(forKey: "certificatePassword")
             let options : NSDictionary = [key: password]
 

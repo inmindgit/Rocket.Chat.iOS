@@ -191,7 +191,7 @@ extension ConnectServerViewController: UITextFieldDelegate {
     }
 
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.collectivetheory.io")
+        let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.blockstream.com")
         let PKCS12Data = sharedDefaults?.value(forKey: "clientCertificate")
         let password = sharedDefaults?.value(forKey: "certificatePassword")
 
@@ -213,13 +213,13 @@ extension ConnectServerViewController: UITextFieldDelegate {
                 alert.addAction(UIAlertAction(title: "Accept", style: .default, handler: { [weak alert] (_) in
                     let password = alert?.textFields![0] // Force unwrapping because we know it exists.
                     let key: NSString = kSecImportExportPassphrase as NSString
-                    let options: NSDictionary = [key: password?.text]
+                    let options: NSDictionary = [key: password?.text! as Any]
                     var items: CFArray?
 
                     let securityError = SecPKCS12Import(PKCS12Data as! CFData, options, &items) // swiftlint:disable:this force_cast
                     if securityError == errSecSuccess
                     {
-                        let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.collectivetheory.io")
+                        let sharedDefaults = UserDefaults.init(suiteName: "group.rocketchat.blockstream.com")
                         sharedDefaults?.set(password?.text, forKey: "certificatePassword")
                         sharedDefaults?.synchronize()
                         self.connect()

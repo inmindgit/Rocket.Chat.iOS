@@ -11,6 +11,9 @@
 "alert.connection.invalid_url.title" = "Oops!";
 "alert.connection.invalid_url.message" = "Die eingegebene URL ist ungültig. Bitte überprüfe deine Eingabe und probiere es noch einmal.";
 
+"alert.connection.invalid_certificate.title" = "Oops!";
+"alert.connection.invalid_certificate.message" = "Something went wrong. Please check that the url and certificate entered is correct or that the certificate has not expired.";
+
 "alert.connection.socket_error.title" = "Oops!";
 "alert.connection.socket_error.message" = "Konnte keine Verbindung zum Server herstellen!";
 

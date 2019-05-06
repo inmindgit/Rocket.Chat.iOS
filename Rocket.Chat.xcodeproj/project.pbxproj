@@ -2369,7 +2369,7 @@
 				TargetAttributes = {
 					41DF76DE1D2C50710028DBF8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 5XRWRHJ2H4;
+						DevelopmentTeam = 75GMU833VC;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
@@ -2401,7 +2401,7 @@
 					};
 					4B5CDBCA2050846B00936988 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 5XRWRHJ2H4;
+						DevelopmentTeam = 75GMU833VC;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -3463,16 +3463,16 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5XRWRHJ2H4;
+				DEVELOPMENT_TEAM = 75GMU833VC;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Rocket.Chat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) -Onone -D DEBUG \"-D\" \"COCOAPODS\"";
-				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.collectivetheory.io;
+				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.blockstream.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "20a4e4ba-265c-4009-9603-6ccc98746eb1";
-				PROVISIONING_PROFILE_SPECIFIER = "Rocket Dev";
+				PROVISIONING_PROFILE = "aea15295-5fbc-4ce4-8826-be58c8106f0b";
+				PROVISIONING_PROFILE_SPECIFIER = "Develpment Provisioning Profile";
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -3490,15 +3490,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5XRWRHJ2H4;
+				DEVELOPMENT_TEAM = 75GMU833VC;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Rocket.Chat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.collectivetheory.io;
+				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.blockstream.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "171b0fa2-18ab-4dd1-9274-39169e6d3ebb";
-				PROVISIONING_PROFILE_SPECIFIER = "Rocket AppStore";
+				PROVISIONING_PROFILE = "7f413f1c-3742-4a7c-99f2-72f1fa994333";
+				PROVISIONING_PROFILE_SPECIFIER = "InHouse Provisioning Profile";
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -3634,16 +3634,16 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5XRWRHJ2H4;
+				DEVELOPMENT_TEAM = 75GMU833VC;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Rocket.Chat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-D\" \"BETA\"";
-				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.collectivetheory.io;
+				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.blockstream.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "171b0fa2-18ab-4dd1-9274-39169e6d3ebb";
-				PROVISIONING_PROFILE_SPECIFIER = "Rocket AppStore";
+				PROVISIONING_PROFILE = "7f413f1c-3742-4a7c-99f2-72f1fa994333";
+				PROVISIONING_PROFILE_SPECIFIER = "InHouse Provisioning Profile";
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -3695,15 +3695,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5XRWRHJ2H4;
+				DEVELOPMENT_TEAM = 75GMU833VC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ClientAuthenticationCertificateShareExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.collectivetheory.io.clientauthenticationcertificate;
+				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.blockstream.com.clientauthenticationcertificate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0c0f2b00-f65a-40bb-929d-e1a101580efe";
-				PROVISIONING_PROFILE_SPECIFIER = "ClientAuthenticationCertificate Dev";
+				PROVISIONING_PROFILE = "d5c45d66-6b33-4f67-ae83-3b218f8c6d45";
+				PROVISIONING_PROFILE_SPECIFIER = "ClientAuthentication Provisioning Profile Dev";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 4.0;
@@ -3722,15 +3722,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5XRWRHJ2H4;
+				DEVELOPMENT_TEAM = 75GMU833VC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ClientAuthenticationCertificateShareExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.collectivetheory.io.clientauthenticationcertificate;
+				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.blockstream.com.clientauthenticationcertificate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "60a779d5-c813-435d-a833-ea06ca513f18";
-				PROVISIONING_PROFILE_SPECIFIER = "ClientAuthentication AppStore";
+				PROVISIONING_PROFILE = "82ffc711-119c-43af-9856-bc762ba909d8";
+				PROVISIONING_PROFILE_SPECIFIER = "ClientAuthentication Provisioning Profile AppStore";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3748,15 +3748,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5XRWRHJ2H4;
+				DEVELOPMENT_TEAM = 75GMU833VC;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ClientAuthenticationCertificateShareExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.collectivetheory.io.clientauthenticationcertificate;
+				PRODUCT_BUNDLE_IDENTIFIER = rocketchat.blockstream.com.clientauthenticationcertificate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "60a779d5-c813-435d-a833-ea06ca513f18";
-				PROVISIONING_PROFILE_SPECIFIER = "ClientAuthentication AppStore";
+				PROVISIONING_PROFILE = "82ffc711-119c-43af-9856-bc762ba909d8";
+				PROVISIONING_PROFILE_SPECIFIER = "ClientAuthentication Provisioning Profile AppStore";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
